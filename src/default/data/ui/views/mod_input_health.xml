@@ -1,0 +1,36 @@
+<dashboard>
+  <label>Modular Input Health</label>
+  <row>
+    <panel>
+      <title>Time (seconds) since last event</title>
+         
+        <viz type="status_indicator_app.status_indicator">
+        <search>
+          <query>source="Brisbane Ferries Monitoring API" | stats latest(_time) as lastevent | eval value =now()-lastevent,  icon_value="clock-o", color_value="green"| table value, icon_value, color_value</query>
+          <earliest>-15m</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="status_indicator_app.status_indicator.showOption">1</option>
+        <option name="status_indicator_app.status_indicator.icon">field_value</option>
+        <option name="status_indicator_app.status_indicator.fixIcon">times-circle</option>
+        <option name="status_indicator_app.status_indicator.useColors">true</option>
+        <option name="status_indicator_app.status_indicator.colorBy">field_value</option>
+        <option name="status_indicator_app.status_indicator.staticColor">#555</option>
+        <option name="status_indicator_app.status_indicator.fillTarget">background</option>
+        <option name="status_indicator_app.status_indicator.precision">0</option>
+        <option name="status_indicator_app.status_indicator.useThousandSeparator">false</option>
+      </viz> 
+    </panel>
+  </row>
+
+    <row>
+    <panel>
+      <table>
+          <title>Errors in brisbane_ferries.py</title>
+          <searchString>brisbane_ferries.py ERROR</searchString>
+          <option name="wrap">true</option>
+          <option name="rowNumbers">true</option> 
+      </table>
+    </panel>
+  </row>
+</dashboard>

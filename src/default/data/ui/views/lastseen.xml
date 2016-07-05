@@ -1,0 +1,15 @@
+<dashboard>
+  <label>Last Seen</label>
+  <row>
+    <panel>
+      <table>
+          <title>Stops
+          </title>
+          <searchString>|source="Brisbane Ferries Monitoring API" | table _time MonitoredVehicleJourney.VehicleLocation.Latitude MonitoredVehicleJourney.VehicleLocation.Longitude MonitoredVehicleJourney.VehicleRef | stats latest(_time) as stop by MonitoredVehicleJourney.VehicleRef
+          </searchString>
+          <option name="wrap">true</option>
+          <option name="rowNumbers">false</option> 
+        </table>
+    </panel>
+  </row> 
+</dashboard>

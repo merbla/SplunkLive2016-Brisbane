@@ -1,0 +1,28 @@
+ferry_stop_name,ferry_stop_ref,latitude,longitude,citycat_upstream,citycat_dowstream,cityhopper_upstream,cityhopper_downstream,cityferry
+Apollo Road,307147,-27.443417,153.063745,yes,yes,,,
+Bretts Wharf,319743,-27.440288,153.064035,yes,yes,,,
+Bulimba,317584,-27.450438,153.052247,yes,yes,,,yes
+Dockside,317581,-27.472471,153.039021,,,yes,yes,
+Eagle Street Pier,317591,-27.468797,153.030953,,,yes,yes,yes
+Guyatt Park,317572,-27.492313,153.001872,yes,yes,,,
+Hawthorne,317583,-27.4612,153.053415,yes,yes,,,
+Holman Street,317580,-27.465691,153.033569,,,yes,yes,yes
+Maritime Museum,317578,-27.481873,153.0283,,,yes,yes,
+Milton,319586,-27.473497,153.005413,yes,yes,,,
+Mowbray Park,317582,-27.477292,153.043254,yes,yes,,,
+New Farm Park,317588,-27.471721,153.052482,yes,yes,,,yes
+Norman Park,317585,-27.474348,153.053648,,,,,yes
+North Quay 1,317593,-27.472672,153.022457,yes,yes,,yes,
+North Quay 2,317594,-27.472882,153.022676,,,yes,,
+Northshore Hamilton,318002,-27.445456,153.083784,yes,yes,,,
+QUT,319637,-27.478531,153.026169,yes,yes,,,
+Regatta,317571,-27.483213,152.996813,yes,yes,,,
+Riverside,317590,-27.467087,153.031222,yes,yes,,,
+South Bank 1,317575,-27.475831,153.022207,,yes,,,
+South Bank 2,317576,-27.476124,153.022389,yes,,,,
+South Bank 3,317577,-27.479792,153.025037,,,yes,yes,
+Sydney Street,317589,-27.474786,153.042187,yes,yes,yes,yes,
+Teneriffe,317587,-27.45169,153.049247,yes,yes,,,yes
+Thornton Street,317579,-27.471224,153.034033,,,yes,yes,yes
+UQ St Lucia,319665,-27.496741,153.019544,yes,yes,,,
+West End,317574,-27.490241,153.003364,yes,yes,,,

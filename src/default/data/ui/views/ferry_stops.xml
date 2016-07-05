@@ -1,0 +1,26 @@
+<dashboard>
+  <label>City Cat Terminals</label>
+  <row>
+    <panel>
+      <table>
+          <title>Terminals
+          </title>
+          <searchString>|inputlookup ferry_stops.csv | where citycat_upstream = "yes" or citycat_downstream = "yes" | eval "Stop Name"=ferry_stop_name, Lat=latitude, Long=longitude, Reference=ferry_stop_ref | fields "Stop Name", Lat, Long, Reference</searchString>
+          <option name="wrap">true</option>
+          <option name="rowNumbers">false</option> 
+        </table>
+    </panel>
+  </row>
+    <row>
+    <panel>
+      <title>Terminal Locations</title>
+      <viz type="location_tracker_app.location_tracker">
+        <search>
+          <query>|inputlookup ferry_stops.csv | where citycat_upstream = "yes" or citycat_downstream = "yes" | eval "Stop Name"=ferry_stop_name, Lat=latitude, Long=longitude, Reference=ferry_stop_ref | fields _time, Lat, Long, "Stop Name"</query>
+          <earliest>0</earliest>
+        </search>
+        <option name="location_tracker_app.location_tracker.staticIcon">map-pin</option>  
+      </viz>
+    </panel>
+  </row>
+</dashboard>

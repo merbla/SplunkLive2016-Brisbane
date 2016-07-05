@@ -1,0 +1,32 @@
+<dashboard>
+  <label>RiverSide Punchcard</label>
+  <row>
+
+ <panel>
+      <title>Rows show categorical field instead of week day</title>
+      <viz type="punchcard_app.punchcard">
+        <title>Showing only casual riders</title>
+        <search>
+          <query>| source="Brisbane Ferries Monitoring API" 
+| spath output=Arrival path=MonitoredVehicleJourney.MonitoredCall.AimedArrivalTime
+| spath output=ExpectedArrival path=MonitoredVehicleJourney.MonitoredCall.ExpectedArrivalTime
+| spath output=Destination path=MonitoredVehicleJourney.DestinationName
+| eval estTime=strptime(ExpectedArrival, "%Y-%m-%dT%H:%M:%S")
+| stats count by date_hour Destination
+          </query>
+
+          <earliest></earliest>
+          <latest></latest>
+        </search>
+        <option name="height">600</option>
+        <option name="punchcard_app.punchcard.useColors">false</option>
+        <option name="punchcard_app.punchcard.colorMode">sequential</option>
+        <option name="punchcard_app.punchcard.radiusScale">local</option>
+        <option name="punchcard_app.punchcard.minColor">#f7bc38</option>
+        <option name="punchcard_app.punchcard.maxColor">#d93f3c</option>
+        <option name="punchcard_app.punchcard.numOfBins">6</option>
+        <option name="punchcard_app.punchcard.labelRotation">angle</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

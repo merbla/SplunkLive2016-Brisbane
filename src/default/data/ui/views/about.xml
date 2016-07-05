@@ -1,0 +1,23 @@
+<dashboard>
+  <label>Where is my Cat?</label>
+  <row> 
+    <html> 
+      <article class="markdown-body"><h1 id="splunk-live-2016-brisbane"><a name="user-content-splunk-live-2016-brisbane" href="#splunk-live-2016-brisbane" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Splunk Live 2016 - Brisbane</h1>
+<p>Using data from the <a href="https://www.data.brisbane.qld.gov.au/data/dataset/ferry-terminals">Brisbane City Council OpenData</a> this app illustrates some of the capabilites of Splunk apps using Open Data.</p>
+<ul>
+<li><a href="http://docs.splunk.com/Documentation/Splunk/6.4.1/Knowledge/Addfieldsfromexternaldatasources">Lookup Data</a></li>
+<li><a href="http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ModInputsIntro">Modular Inputs</a></li>
+<li><a href="http://docs.splunk.com/Documentation/CustomViz">Custom Visualisation</a><ul>
+<li><a href="http://docs.splunk.com/Documentation/CustomViz/1.0.0/RealTimeLocation/RealTimeTrackerIntro">Real Time Location</a></li>
+</ul>
+</li>
+<li><a href="http://docs.splunk.com/Documentation/Splunk/6.4.1/Search/Aboutcustomsearchcommands">Custom Search Commands</a></li>
+</ul>
+<p>This app makes use of the following OSS libraries</p>
+<ul>
+<li><a href="https://github.com/splunk/splunk-sdk-python">Splunk Python SDK</a></li>
+<li><a href="https://github.com/geopy/geopy">GeoPy</a></li>
+</ul></article>
+    </html>
+  </row>
+</dashboard>

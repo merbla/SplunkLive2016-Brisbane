@@ -1,0 +1,26 @@
+<dashboard>
+  <label>CityCat Tracker</label>
+  <row>
+    <panel>
+      <title>Last 15 mins</title>
+      <viz type="location_tracker_app.location_tracker">
+        <search>
+          <query>
+            source="Brisbane Ferries Monitoring API" 
+| spath output=DestinationName path=MonitoredVehicleJourney.DestinationName 
+| spath output=VehicleRef path=MonitoredVehicleJourney.VehicleRef 
+| eval dest="Destination: ".DestinationName." Ref: ".VehicleRef
+| table _time MonitoredVehicleJourney.VehicleLocation.Latitude MonitoredVehicleJourney.VehicleLocation.Longitude dest 
+| sort -_time
+          </query>
+          <earliest>rt-15m</earliest> 
+          <latest>rt</latest>
+        </search>
+        <option name="location_tracker_app.location_tracker.staticIcon">ship</option>
+        <option name="location_tracker_app.location_tracker.showTraces">1</option>
+        <option name="location_tracker_app.location_tracker.interval">120</option>
+        <option name="location_tracker_app.location_tracker.tileSet">dark_tiles</option>
+      </viz>
+    </panel>
+  </row>
+</dashboard>

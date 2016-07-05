@@ -6,7 +6,6 @@ Using data from the [Brisbane City Council OpenData](https://www.data.brisbane.q
 * [Modular Inputs](http://docs.splunk.com/Documentation/Splunk/latest/AdvancedDev/ModInputsIntro)
 * [Custom Visualisation](http://docs.splunk.com/Documentation/CustomViz)
     - [Real Time Location](http://docs.splunk.com/Documentation/CustomViz/1.0.0/RealTimeLocation/RealTimeTrackerIntro)
-    
 * [Custom Search Commands](http://docs.splunk.com/Documentation/Splunk/6.4.1/Search/Aboutcustomsearchcommands)
 
 This app makes use of the following OSS libraries

@@ -1,0 +1,204 @@
+{
+    "Siri": {
+        "ServiceDelivery": {
+            "ResponseTimestamp": "2016-05-16T10:38:57.4010912Z",
+            "StopMonitoringDelivery": {
+                "MonitoredStopVisit": [{
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "UQSL",
+                        "DirectionRef": "Upstream",
+                        "JourneyPatternRef": "UQSL",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "University of Qld",
+                        "DestinationName": "University of Qld",
+                        "Monitored": true,
+                        "VehicleLocation": {
+                            "Longitude": 153.04946166666667,
+                            "Latitude": -27.451741666666667
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "26669",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T20:48:00",
+                            "AimedDepartureTime": "2016-05-16T20:48:00",
+                            "ExpectedArrivalTime": "2016-05-16T20:48:17",
+                            "ExpectedDepartureTime": "2016-05-16T20:48:17"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": "2016-05-16T20:38:37"
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "NHAM",
+                        "DirectionRef": "Downstream",
+                        "JourneyPatternRef": "NHAM",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "Northshore Hamilton",
+                        "DestinationName": "Northshore Hamilton",
+                        "Monitored": true,
+                        "VehicleLocation": {
+                            "Longitude": 153.04039166666666,
+                            "Latitude": -27.472408333333334
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "26635",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T20:55:00",
+                            "AimedDepartureTime": "2016-05-16T20:55:00",
+                            "ExpectedArrivalTime": "2016-05-16T20:55:18",
+                            "ExpectedDepartureTime": "2016-05-16T20:55:18"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": "2016-05-16T20:38:38"
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "UQSL",
+                        "DirectionRef": "Upstream",
+                        "JourneyPatternRef": "UQSL",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "University of Qld",
+                        "DestinationName": "University of Qld",
+                        "Monitored": false,
+                        "VehicleLocation": {
+                            "Longitude": null,
+                            "Latitude": null
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T21:18:00",
+                            "AimedDepartureTime": "2016-05-16T21:18:00",
+                            "ExpectedArrivalTime": "2016-05-16T21:18:00",
+                            "ExpectedDepartureTime": "2016-05-16T21:18:00"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": null
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "NHAM",
+                        "DirectionRef": "Downstream",
+                        "JourneyPatternRef": "NHAM",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "Northshore Hamilton",
+                        "DestinationName": "Northshore Hamilton",
+                        "Monitored": true,
+                        "VehicleLocation": {
+                            "Longitude": 152.99692166666668,
+                            "Latitude": -27.483413333333335
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "26662",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T21:25:00",
+                            "AimedDepartureTime": "2016-05-16T21:25:00",
+                            "ExpectedArrivalTime": "2016-05-16T21:26:36",
+                            "ExpectedDepartureTime": "2016-05-16T21:26:36"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": "2016-05-16T20:38:45"
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "UQSL",
+                        "DirectionRef": "Upstream",
+                        "JourneyPatternRef": "UQSL",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "University of Qld",
+                        "DestinationName": "University of Qld",
+                        "Monitored": false,
+                        "VehicleLocation": {
+                            "Longitude": null,
+                            "Latitude": null
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T21:48:00",
+                            "AimedDepartureTime": "2016-05-16T21:48:00",
+                            "ExpectedArrivalTime": "2016-05-16T21:48:00",
+                            "ExpectedDepartureTime": "2016-05-16T21:48:00"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": null
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "NHAM",
+                        "DirectionRef": "Downstream",
+                        "JourneyPatternRef": "NHAM",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "Northshore Hamilton",
+                        "DestinationName": "Northshore Hamilton",
+                        "Monitored": false,
+                        "VehicleLocation": {
+                            "Longitude": null,
+                            "Latitude": null
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T21:55:00",
+                            "AimedDepartureTime": "2016-05-16T21:55:00",
+                            "ExpectedArrivalTime": "2016-05-16T21:55:00",
+                            "ExpectedDepartureTime": "2016-05-16T21:55:00"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": null
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "UQSL",
+                        "DirectionRef": "Upstream",
+                        "JourneyPatternRef": "UQSL",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "University of Qld",
+                        "DestinationName": "University of Qld",
+                        "Monitored": false,
+                        "VehicleLocation": {
+                            "Longitude": null,
+                            "Latitude": null
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T22:18:00",
+                            "AimedDepartureTime": "2016-05-16T22:18:00",
+                            "ExpectedArrivalTime": "2016-05-16T22:18:00",
+                            "ExpectedDepartureTime": "2016-05-16T22:18:00"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": null
+                }, {
+                    "MonitoredVehicleJourney": {
+                        "LineRef": "NHAM",
+                        "DirectionRef": "Downstream",
+                        "JourneyPatternRef": "NHAM",
+                        "OperatorRef": "Transdev",
+                        "DestinationRef": "Northshore Hamilton",
+                        "DestinationName": "Northshore Hamilton",
+                        "Monitored": false,
+                        "VehicleLocation": {
+                            "Longitude": null,
+                            "Latitude": null
+                        },
+                        "Bearing": 0.0,
+                        "VehicleRef": "",
+                        "MonitoredCall": {
+                            "AimedArrivalTime": "2016-05-16T22:30:00",
+                            "AimedDepartureTime": "2016-05-16T22:30:00",
+                            "ExpectedArrivalTime": "2016-05-16T22:30:00",
+                            "ExpectedDepartureTime": "2016-05-16T22:30:00"
+                        }
+                    },
+                    "MonitoringRef": "317583",
+                    "RecordedAtTime": null
+                }],
+                "ResponseTimestamp": "2016-05-16T10:38:57.4010912Z",
+                "ValidUntil": "2016-05-16T10:40:57.4010912Z"
+            }
+        }
+    }
+}
