@@ -35,9 +35,12 @@ class BrisbaneFerriesModularInput(Script):
     def stream_events(self, inputs, ew):
 
         app_name = "brisbane_ferries"
+
+        # Get the path to the csv file that represents the ferry terminals
         stops_csv_path = os.path.join(
             os.environ["SPLUNK_HOME"], "etc", "apps", app_name, "lookups", "ferry_stops.csv")
 
+        # Read the list of references into a collection
         ferry_refs = []
         with open(stops_csv_path, "rb") as csvfile:
             stops_reader = csv.DictReader(csvfile)
@@ -45,7 +48,7 @@ class BrisbaneFerriesModularInput(Script):
                 reference = row['ferry_stop_ref']
                 ferry_refs.append(reference)
 
-        # Go through each input for this modular input
+        # Iterate through each ferry and ingest the data
         for input_name, input_item in inputs.inputs.iteritems():
 
             interval_in_secs = float(input_item["interval_in_secs"])

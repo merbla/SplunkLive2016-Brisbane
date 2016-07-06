@@ -8,7 +8,7 @@ from geopy.distance import vincenty
 
 @Configuration()
 class GeoDistCommand(StreamingCommand):
-    # source="Brisbane Ferries Monitoring API" | head 1 | eval a=41.49008, b=-71.312796, x=41.499498, y=-81.695391 | geodistance latA=a lngA=b latB=x lngB=y meters=distance
+
     meters = Option(
         require=True, validate=validators.Fieldname())
 

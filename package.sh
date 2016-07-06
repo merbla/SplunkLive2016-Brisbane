@@ -6,12 +6,10 @@ clear
 rm -R ../package/
 mkdir ../package/
 
+# NOOOOO! don't do this!  Set ONLY the bin folder as executable 
 chmod -R 755 *
 
-cp -r ./src ../package/brisbane_ferries/
-# find ../package/brisbane_ferries/ -type f -exec chmod 644 {} \;
-# find ../package/brisbane_ferries/bin -type f -exec chmod 755 {} \;
-# -rwxr-xr-x
+cp -r ./src ../package/brisbane_ferries/ 
 cd ../package/
 
 #remove Git Files
